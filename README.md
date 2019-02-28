@@ -27,7 +27,7 @@ apt-get install cuda
 export CUDA_HOME=${CUDA_HOME}:/usr/local/cuda:/usr/local/cuda-9.0
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-9.0/lib64
 ```
-**Download cuDNN as tar**
+**Download cuDNN as tar\n**
 **Get cudNN from**
 https://developer.nvidia.com/rdp/cudnn-archive
 ```
