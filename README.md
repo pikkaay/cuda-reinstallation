@@ -1,8 +1,8 @@
 #remove current version cuda
 
-apt-get --purge remove cuda
-apt-get autoremove
-dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
+>apt-get --purge remove cuda
+>apt-get autoremove
+>dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 #remove cuda folders in /usr/local/ a
 
 INSTALL
