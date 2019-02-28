@@ -1,4 +1,4 @@
-**Check for required versions**
+**From the table find the required versions of cuda and cuDNN wrt installed tensorflow version**
 ![file](Screenshot.png)
 
 **Remove current version cuda**
