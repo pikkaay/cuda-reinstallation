@@ -1,7 +1,8 @@
-**From the table find the required versions of cuda and cuDNN wrt installed tensorflow version**
+**From the table, find the required versions of cuda and cuDNN wrt installed tensorflow version**
 ![file](Screenshot.png)
 
-**Remove current version cuda**
+**Remove current version cuda** 
+>This will remove every associated files for a clean reinstallation
 ```
 apt-get --purge remove cuda
 apt-get autoremove
