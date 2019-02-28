@@ -10,10 +10,11 @@ dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 ```
 **Remove cuda folders in /usr/local/**
 
-**Installation***
-Download CUDA Toolkit 8.0  deb (local). 
-cd to this folder
+**Installation**
+>Download CUDA Toolkit 8.0  deb (local). 
 ```
+cd /folder to which this toolkit has downloaded
+
 dpkg -i cuda-repo-ubuntu1604-8-0-local_8.0.6-1_amd64-deb
 apt-key add /var/cuda-repo-8-0-local/7fa2af80.pub
 apt-get update
