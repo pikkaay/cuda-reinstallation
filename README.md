@@ -13,9 +13,9 @@ dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 >Remove cuda folders in /usr/local/
 
 **Installation**
->Download CUDA Toolkit 8.0  deb (local). 
+Download CUDA Toolkit 8.0  deb (local). 
 
->Get cuda toolkit from here
+Get cuda toolkit from here
 https://developer.nvidia.com/cuda-toolkit-archive
 ```
 cd /folder to which this toolkit has downloaded
@@ -30,9 +30,9 @@ apt-get install cuda
 export CUDA_HOME=${CUDA_HOME}:/usr/local/cuda:/usr/local/cuda-8.0
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-8.0/lib64
 ```
->>Download cuDNN as tar
+Download cuDNN as tar
 
->>Get cudNN from
+Get cudNN from
 https://developer.nvidia.com/rdp/cudnn-archive
 ```
 tar -xzvf cudnn-8.0-linux-x64-v5.1.tgz
