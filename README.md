@@ -31,5 +31,5 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 
 https://developer.nvidia.com/cuda-toolkit-archive
 
-**Get cudNN from (you may need to sign up)**
+**Get cudNN from**
 https://developer.nvidia.com/rdp/cudnn-archive
