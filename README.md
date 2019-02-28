@@ -3,19 +3,22 @@
 I have used cuda 8.0 and cuDNN 5.1 for tensorflow-gpu==1.1.0
 ![file](Screenshot.png)
 
-**Remove current version cuda** 
->This will remove every associated files for a clean reinstallation
+**Remove current version cuda**
+
+This will remove every associated files for a clean reinstallation
 ```
 apt-get --purge remove cuda
 apt-get autoremove
 dpkg --list |grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
 ```
->Remove cuda folders in /usr/local/
+Remove cuda folders in /usr/local/
 
 **Installation**
+
 Download CUDA Toolkit 8.0  deb (local). 
 
 Get cuda toolkit from here
+
 https://developer.nvidia.com/cuda-toolkit-archive
 ```
 cd /folder to which this toolkit has downloaded
@@ -33,6 +36,7 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda-8.0/lib64
 Download cuDNN as tar
 
 Get cudNN from
+
 https://developer.nvidia.com/rdp/cudnn-archive
 ```
 tar -xzvf cudnn-8.0-linux-x64-v5.1.tgz
