@@ -1,3 +1,6 @@
+**Check for required versions**
+![file](Screenshot.png)
+
 **Remove current version cuda**
 ```
 apt-get --purge remove cuda
